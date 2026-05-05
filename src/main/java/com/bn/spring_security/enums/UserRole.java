@@ -2,6 +2,6 @@ package com.bn.spring_security.enums;
 
 public enum UserRole {
 
-    ADMIN, EXECUTIVO
+    ADMIN, USER
 
 }
