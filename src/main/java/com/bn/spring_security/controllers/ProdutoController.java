@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
+import static org.aspectj.weaver.tools.cache.SimpleCacheFactory.path;
+
 @RestController
-@RequestMapping("/produtos")
+@RequestMapping(path = "/produtos")
 public class ProdutoController {
 
     private final ProdutoService service;

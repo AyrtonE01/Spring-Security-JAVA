@@ -2,6 +2,7 @@ package com.bn.spring_security.entities;
 
 import jakarta.persistence.*;
 import java.math.BigDecimal;
+import java.util.List;
 
 @Entity(name = "Produto")
 @Table(name = "tb_produto")
